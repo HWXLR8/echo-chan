@@ -1,0 +1,44 @@
+PORTA:
+        P1 A
+        P1 B
+        P1 C
+        P1 D
+        P2 A
+        P2 B
+        P2 C
+        P2 D
+
+PORTB:
+        P1 UP
+        P1 DOWN
+        P1 LEFT
+        P1 RIGHT
+        P2 UP
+        P2 DOWN
+        P2 LEFT
+        P2 RIGHT
+
+PORTC:
+        P1 START
+        P2 START
+        COIN 1
+        COIN 2
+        SERVICE
+        TEST
+        P1 E
+        P2 E
+
+DSUB    - AE11024-ND
+22 OHM  - 311-22JRCT-ND
+30 OHM  - 311-30LRCT-ND
+220 OHM - 311-220HRCT-ND
+1 KOHM  - 311-1.0KJRCT-ND
+1uF     - 490-7229-1-ND
+100nF   - 311-1375-1-ND
+10pF    - 311-1385-1-ND
+LED     - 516-3217-1-ND
+BUTTON  - CKN10502CT-ND
+CRYSTAL - SER3686CT-ND
+USB     - ED2983-ND
+3.5mm   - CP1-3533NS-ND
+4X 1K 0402 - 741X083102JPCT-ND
