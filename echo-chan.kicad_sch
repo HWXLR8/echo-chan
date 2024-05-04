@@ -5,142 +5,6 @@
 	(uuid "f9e5ab77-ac00-48f5-910f-38a287c63fee")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2725,306 +2589,6 @@
 				)
 			)
 		)
-		(symbol "jamma-streamer-rescue:CP1_Small-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Device:CP1_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP1_Small-Device_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP1_Small-Device_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "jamma-streamer-rescue:CP1_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP1_Small-jamma-streamer-rescue_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP1_Small-jamma-streamer-rescue_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "jamma-streamer-rescue:Crystal_Small-jamma-streamer-rescue"
 			(pin_numbers hide)
 			(pin_names
@@ -4780,165 +4344,6 @@
 				)
 			)
 		)
-		(symbol "jamma-streamer-rescue:LED-jamma-streamer-rescue"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "jamma-streamer-rescue:LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED-jamma-streamer-rescue_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED-jamma-streamer-rescue_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "jamma-streamer-rescue:R-jamma-streamer-rescue"
 			(pin_numbers hide)
 			(pin_names
@@ -5926,6 +5331,222 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 33.02 158.75)
@@ -5958,12 +5579,6 @@
 		(uuid "08487809-db46-4a1e-bed1-7be753b8520b")
 	)
 	(junction
-		(at 208.28 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a6554b7-9dec-47b5-a493-249c7d4148b6")
-	)
-	(junction
 		(at 48.26 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5976,22 +5591,10 @@
 		(uuid "0e9d4ea0-134c-42d5-93a5-3de5552b5597")
 	)
 	(junction
-		(at 104.14 146.05)
+		(at 107.95 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1479745b-f18e-43c1-9378-acf7a1c93ecd")
-	)
-	(junction
-		(at 186.69 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19e030b0-7927-4333-af35-4773815a0dc2")
-	)
-	(junction
-		(at 267.97 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc59282-bfd9-488a-a963-f74f80f955d0")
+		(uuid "13c9a03f-6aa7-4c84-bfa9-748a7c02841e")
 	)
 	(junction
 		(at 73.66 57.15)
@@ -6006,16 +5609,16 @@
 		(uuid "1d824315-c6c8-4e0c-82d6-2fcdd3bfb659")
 	)
 	(junction
+		(at 242.57 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "224b0fd4-1291-4a05-9f35-3ffe744f2428")
+	)
+	(junction
 		(at 157.48 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27b69500-e9e6-492b-b1e6-1cf08477ed17")
-	)
-	(junction
-		(at 170.18 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28c9165e-845b-403d-a76a-2c1a74505973")
 	)
 	(junction
 		(at 88.9 100.33)
@@ -6036,12 +5639,6 @@
 		(uuid "309e0312-a1c1-4f8b-b24b-031ea42f414d")
 	)
 	(junction
-		(at 267.97 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31073a51-7b6c-42de-b2b5-5bcb3ca59076")
-	)
-	(junction
 		(at 80.01 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6054,22 +5651,28 @@
 		(uuid "34f37a49-0023-4ce4-a27c-3a9b3766634b")
 	)
 	(junction
-		(at 104.14 130.81)
+		(at 217.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43756d4c-95a3-498b-9be5-827cee87939e")
+		(uuid "3feec612-14bf-4312-abd3-248696d2c262")
+	)
+	(junction
+		(at 231.14 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42592be6-2947-4e59-a171-7544fa738b12")
+	)
+	(junction
+		(at 245.11 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4baf6837-bb4d-4a6c-bddc-52142c8c16b0")
 	)
 	(junction
 		(at 92.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c498909-2b49-42a4-881c-0033bd3326da")
-	)
-	(junction
-		(at 142.24 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4df4fe7b-988d-4e7d-9a62-1082ad487452")
 	)
 	(junction
 		(at 25.4 39.37)
@@ -6084,12 +5687,6 @@
 		(uuid "504e9d20-f2e4-4b8d-a17d-10f6cf996c2e")
 	)
 	(junction
-		(at 196.85 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50522ed5-1584-4e19-89bc-328697450713")
-	)
-	(junction
 		(at 57.15 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6100,12 +5697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5224a047-b9de-47a5-95fd-a7a15646021e")
-	)
-	(junction
-		(at 267.97 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "572674c0-d570-4854-9f47-454820b6a77f")
 	)
 	(junction
 		(at 55.88 158.75)
@@ -6132,12 +5723,6 @@
 		(uuid "5d7f8547-0bb6-4b3a-b47b-e84629f0f834")
 	)
 	(junction
-		(at 214.63 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f03e0fa-c3cd-4b69-ad62-0b59146888a5")
-	)
-	(junction
 		(at 91.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6154,6 +5739,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6010eb88-1a08-4e12-a59e-a6fc5bb7aedb")
+	)
+	(junction
+		(at 170.18 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "623c4bfd-3b7c-4f3d-96ca-0c54e78bd3f3")
 	)
 	(junction
 		(at 82.55 67.31)
@@ -6276,28 +5867,28 @@
 		(uuid "9ca4d936-5bcd-4766-b0fb-7fc4880983d0")
 	)
 	(junction
+		(at 224.79 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6d74f2-8fc8-4378-88b4-91a24a07f49c")
+	)
+	(junction
 		(at 36.83 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eb0d74b-578d-4fa7-b65b-5aba74ee8c50")
 	)
 	(junction
-		(at 240.03 62.23)
+		(at 196.85 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f49ad0c-fabc-4995-acd1-82153c11a089")
+		(uuid "a79a8644-00d5-4aa6-87e6-468776856388")
 	)
 	(junction
-		(at 228.6 135.89)
+		(at 242.57 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac9d9ba4-e98b-4881-923f-5478b06f21ba")
-	)
-	(junction
-		(at 116.84 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6c3ad14-24f3-408c-b25f-fc184a85a1e7")
+		(uuid "a8b43767-39c8-4307-87dd-8a3260632b9c")
 	)
 	(junction
 		(at 54.61 125.73)
@@ -6324,28 +5915,22 @@
 		(uuid "c6d7069a-c84d-436c-9bd5-4893b1728e4f")
 	)
 	(junction
-		(at 196.85 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbe9ba9d-a3f5-4ab3-bda9-04704b08e2b2")
-	)
-	(junction
 		(at 69.85 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2637411-0d0f-4e1e-9fbc-843238793620")
 	)
 	(junction
+		(at 116.84 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3618f7f-5287-4372-a480-05c4be9fc670")
+	)
+	(junction
 		(at 162.56 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5b7dc77-7cbd-42e5-8c63-e9822fdc3ddf")
-	)
-	(junction
-		(at 250.19 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d929a73f-bd76-45a3-9d4e-da07765fedb4")
 	)
 	(junction
 		(at 142.24 138.43)
@@ -6366,10 +5951,22 @@
 		(uuid "de4a2ce9-d602-4381-9fb7-26087edffb46")
 	)
 	(junction
+		(at 238.76 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1dd4a08-e468-4309-930f-4278c1f0feef")
+	)
+	(junction
 		(at 78.74 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2e280a9-997f-4f6c-929e-23e4fd1c3eb0")
+	)
+	(junction
+		(at 170.18 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4489dd4-b656-4e2b-bbc5-a319be3728bf")
 	)
 	(junction
 		(at 64.77 82.55)
@@ -6378,10 +5975,22 @@
 		(uuid "e55e9a52-80d9-4312-8b6c-97358c5a5d3c")
 	)
 	(junction
-		(at 236.22 135.89)
+		(at 208.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee3c2ce2-5b9a-40be-8525-57d0e8724473")
+		(uuid "e93ba0ea-3614-473f-9104-dd6d5374a194")
+	)
+	(junction
+		(at 142.24 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee28ad30-4ab5-4797-baab-7fc22bc9461e")
+	)
+	(junction
+		(at 170.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f08e27a9-f77e-425d-9b75-1503d07759cf")
 	)
 	(junction
 		(at 85.09 69.85)
@@ -6389,19 +5998,33 @@
 		(color 0 0 0 0)
 		(uuid "f263b463-196a-4de5-9d46-df3d7351434b")
 	)
-	(junction
-		(at 196.85 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7b1c5b9-6e8d-4256-a7e0-c4213ba466fd")
+	(no_connect
+		(at 237.49 66.04)
+		(uuid "00442190-d8f3-4033-a312-a5405e97bdec")
 	)
 	(no_connect
 		(at 157.48 180.34)
 		(uuid "019a06e4-f7c6-44e5-bcf1-c1c471d94181")
 	)
 	(no_connect
+		(at 203.2 77.47)
+		(uuid "0696bb19-28e6-4ee9-83ee-cb67ebcab6fa")
+	)
+	(no_connect
+		(at 242.57 127)
+		(uuid "0879c0a8-a06d-4076-8edf-0955de5d262b")
+	)
+	(no_connect
+		(at 224.79 66.04)
+		(uuid "0a4f7ec2-8331-444e-a47c-cc9efafc7abd")
+	)
+	(no_connect
 		(at 147.32 180.34)
 		(uuid "1a5988ee-baa1-4ae8-9d3f-a2372d97c0ad")
+	)
+	(no_connect
+		(at 203.2 97.79)
+		(uuid "1da733e8-aaf4-44db-9680-1e6ae8510fda")
 	)
 	(no_connect
 		(at 149.86 180.34)
@@ -6412,16 +6035,88 @@
 		(uuid "25f29caa-d32b-48cc-b396-4f95dc869847")
 	)
 	(no_connect
+		(at 227.33 66.04)
+		(uuid "279504c0-bbcc-4fb3-9358-cea10726c157")
+	)
+	(no_connect
+		(at 217.17 127)
+		(uuid "2a6e2abf-d087-4de5-bb76-bee357aa3bbe")
+	)
+	(no_connect
+		(at 234.95 127)
+		(uuid "2afa6db2-c48d-494a-be68-34fcd403ef62")
+	)
+	(no_connect
+		(at 232.41 66.04)
+		(uuid "2fb6f328-c792-41e4-a86b-3301aee18803")
+	)
+	(no_connect
+		(at 245.11 127)
+		(uuid "34d326fd-825a-4698-81c3-a71f4cd90d5f")
+	)
+	(no_connect
+		(at 240.03 66.04)
+		(uuid "3757a977-06d3-49a0-9197-bef851d79839")
+	)
+	(no_connect
+		(at 222.25 66.04)
+		(uuid "3aa16d45-f89e-4f20-9552-844ef1598b1a")
+	)
+	(no_connect
 		(at 39.37 39.37)
 		(uuid "3ba7964f-201e-4903-a990-983458fbc2e9")
+	)
+	(no_connect
+		(at 203.2 80.01)
+		(uuid "67d04eff-b2fa-445e-97c1-df07dda8b5f9")
+	)
+	(no_connect
+		(at 247.65 127)
+		(uuid "737e5845-ad84-433c-9c87-2d9215f35c6e")
+	)
+	(no_connect
+		(at 240.03 127)
+		(uuid "7c8f05f2-d1c5-4987-9e9d-56756c7b051b")
+	)
+	(no_connect
+		(at 252.73 127)
+		(uuid "845f201c-bb42-485b-b907-6a839170bb37")
+	)
+	(no_connect
+		(at 219.71 127)
+		(uuid "8847f3e0-4f94-47a6-afae-5f4ef0bdc20a")
 	)
 	(no_connect
 		(at 129.54 180.34)
 		(uuid "8faf5629-ec42-40ab-9628-6bfa080ff922")
 	)
 	(no_connect
+		(at 229.87 66.04)
+		(uuid "9c8c7f91-1649-47a8-8471-c1aeacbb5720")
+	)
+	(no_connect
+		(at 264.16 115.57)
+		(uuid "c4762d21-7ba6-49f5-8807-71930d779c14")
+	)
+	(no_connect
+		(at 237.49 127)
+		(uuid "c8d8098e-af51-49c3-975b-f109f7ab886e")
+	)
+	(no_connect
 		(at 40.64 161.29)
 		(uuid "d84b112b-d383-43bc-9913-79dbfdf58d28")
+	)
+	(no_connect
+		(at 264.16 113.03)
+		(uuid "d948975f-8786-444e-ae1c-a761765157d6")
+	)
+	(no_connect
+		(at 234.95 66.04)
+		(uuid "e914a7ca-7dcf-4f5c-98e7-e44333c02a43")
+	)
+	(no_connect
+		(at 250.19 127)
+		(uuid "f212ceb4-4281-44c6-84ab-62c9ddff560b")
 	)
 	(no_connect
 		(at 40.64 39.37)
@@ -6430,26 +6125,6 @@
 	(no_connect
 		(at 39.37 161.29)
 		(uuid "fe2fec31-9167-4435-82af-1b4d00d16ebb")
-	)
-	(wire
-		(pts
-			(xy 110.49 95.25) (xy 160.02 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00144a73-c6de-4a72-ba27-58cd46ad23bc")
-	)
-	(wire
-		(pts
-			(xy 234.95 135.89) (xy 236.22 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00324079-9aa7-4d72-b9b0-57e063b8b00e")
 	)
 	(wire
 		(pts
@@ -6463,43 +6138,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.66) (xy 177.8 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02be093c-b40d-4752-9cfa-6d5bbebaa60c")
-	)
-	(wire
-		(pts
-			(xy 203.2 87.63) (xy 190.5 87.63)
+			(xy 203.2 87.63) (xy 194.31 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "02c659e2-c074-4619-8be8-5e91e20c1029")
-	)
-	(wire
-		(pts
-			(xy 116.84 132.08) (xy 116.84 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03392f19-3d52-44bf-9d5f-755e53532921")
-	)
-	(wire
-		(pts
-			(xy 110.49 82.55) (xy 153.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036754cc-1217-4314-8267-b92e62583e25")
 	)
 	(wire
 		(pts
@@ -6550,16 +6195,6 @@
 			(type default)
 		)
 		(uuid "095262ad-0f92-42b7-88bd-1bfb0f378a7d")
-	)
-	(wire
-		(pts
-			(xy 110.49 74.93) (xy 160.02 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0987d0ad-0b3a-4c15-8618-61c3657f06e6")
 	)
 	(wire
 		(pts
@@ -6633,13 +6268,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 41.91) (xy 102.87 41.91)
+			(xy 67.31 41.91) (xy 152.4 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0dabd86e-9a34-4f5d-9025-e309596bb2b2")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f421baf-36f0-4383-af30-8f1d2991a6b6")
 	)
 	(wire
 		(pts
@@ -6650,6 +6295,16 @@
 			(type default)
 		)
 		(uuid "0f651aa5-7223-438c-ba6e-2370eef64a09")
+	)
+	(wire
+		(pts
+			(xy 222.25 127) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb655c2-f878-43f0-b32b-6e2d46cb1345")
 	)
 	(wire
 		(pts
@@ -6723,13 +6378,33 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 133.35) (xy 236.22 133.35)
+			(xy 200.66 90.17) (xy 203.2 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15eaa522-4364-470d-b542-ac2321adb199")
+		(uuid "148d72fd-8ea6-4242-9b46-eb15191aaeb3")
+	)
+	(wire
+		(pts
+			(xy 184.15 87.63) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c6d0e9-073c-4dbc-852e-08e5dcf044fb")
+	)
+	(wire
+		(pts
+			(xy 245.11 66.04) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16097df4-b5c2-49d1-9435-428bb7bde17b")
 	)
 	(wire
 		(pts
@@ -6743,16 +6418,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 95.25) (xy 196.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fcdad8-e403-4358-b24b-6c447e5dd6f1")
-	)
-	(wire
-		(pts
 			(xy 207.01 116.84) (xy 207.01 127)
 		)
 		(stroke
@@ -6760,16 +6425,6 @@
 			(type default)
 		)
 		(uuid "1727e9cf-e1f8-434f-bf03-42eed0794641")
-	)
-	(wire
-		(pts
-			(xy 196.85 66.04) (xy 214.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "172af074-621d-459f-a2d7-fbfd1f8b7c17")
 	)
 	(wire
 		(pts
@@ -6790,6 +6445,16 @@
 			(type default)
 		)
 		(uuid "18168561-1348-428f-963d-7c316cf60e17")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1816fa57-759e-47fe-975a-217c2cb0fca3")
 	)
 	(wire
 		(pts
@@ -6823,6 +6488,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 100.33) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b61ec8-f404-461e-891c-aaea35b129fe")
+	)
+	(wire
+		(pts
 			(xy 74.93 49.53) (xy 74.93 161.29)
 		)
 		(stroke
@@ -6840,16 +6515,6 @@
 			(type default)
 		)
 		(uuid "1cd1260b-4f21-4de6-b427-caf5dad59d7a")
-	)
-	(wire
-		(pts
-			(xy 224.79 127) (xy 224.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd7e536-2f91-47f0-8faf-4781efc963b7")
 	)
 	(wire
 		(pts
@@ -6883,7 +6548,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 102.87 97.79)
+			(xy 87.63 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6913,7 +6578,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 190.5 85.09)
+			(xy 203.2 85.09) (xy 194.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6953,6 +6618,36 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 101.6) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cb91ba-08c4-4f81-a7b7-c6a3c62a5cb8")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25774841-0beb-4cb9-91c2-391edecbc430")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 219.71 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268bcbdc-adf4-4054-90e6-5f60ac3d7e28")
+	)
+	(wire
+		(pts
 			(xy 26.67 39.37) (xy 26.67 161.29)
 		)
 		(stroke
@@ -6960,16 +6655,6 @@
 			(type default)
 		)
 		(uuid "26c19103-107e-4e3e-aec1-f7883817c927")
-	)
-	(wire
-		(pts
-			(xy 116.84 139.7) (xy 116.84 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27168d88-5d2a-41b9-9aa5-615ca02b0261")
 	)
 	(wire
 		(pts
@@ -6993,23 +6678,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 138.43) (xy 149.86 162.56)
+			(xy 147.32 138.43) (xy 147.32 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ad003bc-ae9e-454c-94b9-4b6232c54928")
-	)
-	(wire
-		(pts
-			(xy 110.49 46.99) (xy 149.86 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c321739-27e9-451f-8c03-4d29caca6e1f")
 	)
 	(wire
 		(pts
@@ -7043,16 +6718,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 161.29 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2feae3c5-783e-44f5-abc0-c7e7e116c57a")
-	)
-	(wire
-		(pts
 			(xy 97.79 30.48) (xy 118.11 30.48)
 		)
 		(stroke
@@ -7060,6 +6725,16 @@
 			(type default)
 		)
 		(uuid "318bc706-f0a9-40c4-b3ec-e8cf14fac6c0")
+	)
+	(wire
+		(pts
+			(xy 245.11 55.88) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a3c227-c348-497e-8bcb-48735d66590c")
 	)
 	(wire
 		(pts
@@ -7103,13 +6778,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 102.87 77.47)
+			(xy 83.82 77.47) (xy 161.29 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "33093fed-4afa-49a9-b2aa-ad1ef8143516")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c26941-14f6-4774-a8b0-16da750ec5eb")
 	)
 	(wire
 		(pts
@@ -7143,6 +6828,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 127) (xy 224.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373d9731-dbc1-4d3a-b6e7-edf8b4de3fbe")
+	)
+	(wire
+		(pts
 			(xy 72.39 39.37) (xy 72.39 46.99)
 		)
 		(stroke
@@ -7153,23 +6848,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 92.71) (xy 102.87 92.71)
+			(xy 58.42 92.71) (xy 158.75 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37cbbada-063d-4903-a0c7-83dd0c8df858")
-	)
-	(wire
-		(pts
-			(xy 180.34 71.12) (xy 177.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3826997d-c2ae-41b0-a767-c9b778cbc175")
 	)
 	(wire
 		(pts
@@ -7183,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 102.87 54.61)
+			(xy 71.12 54.61) (xy 146.05 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7203,13 +6888,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 62.23) (xy 214.63 62.23)
+			(xy 196.85 82.55) (xy 203.2 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b9d4c40-1a07-4b5c-a415-6341c6547902")
+		(uuid "3abf2bf1-5b99-4a34-9df4-a829b5b20baf")
 	)
 	(wire
 		(pts
@@ -7230,16 +6915,6 @@
 			(type default)
 		)
 		(uuid "3c3531d9-aee8-420d-81e6-8719f0e61c3e")
-	)
-	(wire
-		(pts
-			(xy 224.79 128.27) (xy 208.28 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c538660-1abc-4f0a-a1d1-15d36769253a")
 	)
 	(wire
 		(pts
@@ -7293,16 +6968,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 128.27) (xy 208.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da3f1b2-49bf-4aba-b8bd-856c3647e3a3")
-	)
-	(wire
-		(pts
 			(xy 52.07 148.59) (xy 52.07 161.29)
 		)
 		(stroke
@@ -7310,6 +6975,16 @@
 			(type default)
 		)
 		(uuid "3da979f9-b7db-4fdd-821a-ec089eda0a15")
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05) (xy 121.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0b8731-209f-4574-9004-4e8b96900ee0")
 	)
 	(wire
 		(pts
@@ -7373,16 +7048,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 127) (xy 229.87 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418de514-a5bf-4368-aea9-2264c2d41f11")
-	)
-	(wire
-		(pts
 			(xy 92.71 39.37) (xy 92.71 161.29)
 		)
 		(stroke
@@ -7403,7 +7068,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 80.01) (xy 102.87 80.01)
+			(xy 86.36 80.01) (xy 162.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7460,6 +7125,16 @@
 			(type default)
 		)
 		(uuid "4748ba5e-b283-4b1b-af92-f811318692de")
+	)
+	(wire
+		(pts
+			(xy 242.57 140.97) (xy 242.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474bb6c5-46c1-4448-81c9-a63f2c97d526")
 	)
 	(wire
 		(pts
@@ -7523,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 102.87 62.23)
+			(xy 77.47 62.23) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7543,33 +7218,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 203.2 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0f9fba-12a1-4640-b7d8-127e629e8421")
-	)
-	(wire
-		(pts
-			(xy 227.33 128.27) (xy 267.97 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc7d690-7d97-4e83-85dd-c40fde0bd57b")
-	)
-	(wire
-		(pts
-			(xy 69.85 44.45) (xy 102.87 44.45)
+			(xy 69.85 44.45) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ebd42be-0ef4-4646-951a-e9c5a3945278")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 227.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd5c76d-ce71-40f8-bf93-972c7c084fe1")
 	)
 	(wire
 		(pts
@@ -7580,16 +7245,6 @@
 			(type default)
 		)
 		(uuid "50459065-3d85-4c60-b585-b729537986c5")
-	)
-	(wire
-		(pts
-			(xy 110.49 97.79) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c8e20c-f4d7-449e-9cf7-fdac7499e003")
 	)
 	(wire
 		(pts
@@ -7613,6 +7268,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 71.12) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519a113d-dd3a-4c74-92fd-f3218078d7e4")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520a8f87-106d-489b-a5ae-22e6ee2f83ba")
+	)
+	(wire
+		(pts
 			(xy 121.92 151.13) (xy 121.92 153.67)
 		)
 		(stroke
@@ -7633,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 64.77) (xy 102.87 64.77)
+			(xy 80.01 64.77) (xy 154.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7673,6 +7348,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 58.42) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55495325-274e-4453-8de6-1eab0023a570")
+	)
+	(wire
+		(pts
 			(xy 146.05 113.03) (xy 203.2 113.03)
 		)
 		(stroke
@@ -7703,16 +7388,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 54.61) (xy 146.05 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56bae938-a397-45ac-bdee-dab9c8acb2f8")
-	)
-	(wire
-		(pts
 			(xy 46.99 161.29) (xy 46.99 102.87)
 		)
 		(stroke
@@ -7723,13 +7398,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 95.25) (xy 59.69 95.25)
+			(xy 59.69 95.25) (xy 160.02 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57122a9f-aeeb-4192-a9a0-cb85c1d29249")
+	)
+	(wire
+		(pts
+			(xy 217.17 58.42) (xy 217.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0a9e79-32c2-4355-8500-366844671046")
 	)
 	(wire
 		(pts
@@ -7750,16 +7435,6 @@
 			(type default)
 		)
 		(uuid "5bd587b7-fcf9-44b3-9546-ed0d779bf0ce")
-	)
-	(wire
-		(pts
-			(xy 110.49 41.91) (xy 152.4 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be106db-49d9-40ac-a9ce-4aaeb077cc73")
 	)
 	(wire
 		(pts
@@ -7813,23 +7488,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 203.2 101.6)
+			(xy 152.4 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60915ee0-72b4-41e6-8d1b-30eb2ce9af6c")
-	)
-	(wire
-		(pts
-			(xy 110.49 49.53) (xy 148.59 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60df580f-898f-4883-9663-738ace190ab5")
 	)
 	(wire
 		(pts
@@ -7853,7 +7518,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 102.87 74.93)
+			(xy 81.28 74.93) (xy 160.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7903,17 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 90.17) (xy 267.97 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f0b0b3-f13f-4804-be33-ac9c03a42547")
-	)
-	(wire
-		(pts
-			(xy 82.55 67.31) (xy 102.87 67.31)
+			(xy 82.55 67.31) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7923,53 +7578,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 100.33) (xy 162.56 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6651c3e0-5d53-48fc-8636-d0c2b00949c3")
-	)
-	(wire
-		(pts
-			(xy 66.04 85.09) (xy 102.87 85.09)
+			(xy 66.04 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66f7406a-7566-4204-9c45-5f17226af4f2")
-	)
-	(wire
-		(pts
-			(xy 110.49 64.77) (xy 154.94 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67086ab5-56be-47f7-a9c9-1e261d13f1f7")
-	)
-	(wire
-		(pts
-			(xy 250.19 127) (xy 250.19 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67ecc480-643c-4d2b-9d52-0b29826333b7")
-	)
-	(wire
-		(pts
-			(xy 267.97 128.27) (xy 267.97 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682a1100-290f-4939-812b-6a541c97089a")
 	)
 	(wire
 		(pts
@@ -7983,56 +7598,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 62.23) (xy 153.67 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69af8293-c466-4128-b42d-8e926739f7ae")
-	)
-	(wire
-		(pts
-			(xy 110.49 92.71) (xy 158.75 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69df2272-66ab-4f66-98df-0942472bff57")
-	)
-	(wire
-		(pts
-			(xy 182.88 87.63) (xy 180.34 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2d844b-c7e9-4d4a-a7d4-0e317cd5f0c0")
-	)
-	(wire
-		(pts
-			(xy 267.97 125.73) (xy 267.97 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a373c02-bd1e-48f3-ac70-17e24bf1bfd2")
-	)
-	(wire
-		(pts
-			(xy 267.97 129.54) (xy 267.97 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab364cb-aab5-4b7d-bf64-9b875751a695")
-	)
-	(wire
-		(pts
 			(xy 132.08 21.59) (xy 132.08 20.32)
 		)
 		(stroke
@@ -8043,23 +7608,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 146.05) (xy 104.14 146.05)
+			(xy 232.41 129.54) (xy 232.41 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b7667b9-c635-42d7-8175-40e9b6e314cc")
-	)
-	(wire
-		(pts
-			(xy 110.49 69.85) (xy 157.48 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b80fa7f-4e92-4156-95c2-763d6bf9262e")
+		(uuid "6b6a6f2f-3730-4b49-bbf0-50840149b160")
 	)
 	(wire
 		(pts
@@ -8103,13 +7658,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 146.05) (xy 147.32 146.05)
+			(xy 173.99 95.25) (xy 203.2 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e0ca609-ccec-40aa-9698-c51dc6f42e0b")
+		(uuid "6d956666-3b4f-44de-a05c-071ea98fa534")
 	)
 	(wire
 		(pts
@@ -8123,13 +7678,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 135.89) (xy 228.6 135.89)
+			(xy 229.87 130.81) (xy 240.03 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "700a4aed-a05d-46e9-8027-de91a7aa0b39")
+	)
+	(wire
+		(pts
+			(xy 224.79 135.89) (xy 224.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718c3971-d771-4346-996c-f19c6a3ec639")
 	)
 	(wire
 		(pts
@@ -8170,26 +7735,6 @@
 			(type default)
 		)
 		(uuid "729ae1b6-788d-40bd-97eb-e3c8c8c353a4")
-	)
-	(wire
-		(pts
-			(xy 196.85 82.55) (xy 196.85 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732fc95d-3b35-4119-8ff0-cd44afb1a13a")
-	)
-	(wire
-		(pts
-			(xy 222.25 127) (xy 222.25 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b8c990-3a08-45af-97d7-14bbd6250a5f")
 	)
 	(wire
 		(pts
@@ -8243,7 +7788,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 102.87 59.69)
+			(xy 76.2 59.69) (xy 143.51 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8273,16 +7818,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 127) (xy 232.41 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa3d177-6814-411d-a6a8-32b2079ede74")
-	)
-	(wire
-		(pts
 			(xy 147.32 52.07) (xy 147.32 110.49)
 		)
 		(stroke
@@ -8303,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 90.17) (xy 102.87 90.17)
+			(xy 63.5 90.17) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8333,16 +7868,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 85.09) (xy 181.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7edaf2b3-f20f-4a3a-8298-cbc214e7a066")
-	)
-	(wire
-		(pts
 			(xy 281.94 95.25) (xy 264.16 95.25)
 		)
 		(stroke
@@ -8353,33 +7878,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 60.96) (xy 270.51 127)
+			(xy 116.84 142.24) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f6ef10b-4044-4b8f-867c-6281c82f0e14")
-	)
-	(wire
-		(pts
-			(xy 110.49 80.01) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d48bf4-e251-4201-9872-1ea9f3724830")
-	)
-	(wire
-		(pts
-			(xy 198.12 129.54) (xy 250.19 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "817c772d-1752-45d9-ae10-11a9352b59da")
+		(uuid "809230e4-56ea-436e-9ded-cf26442af99c")
 	)
 	(wire
 		(pts
@@ -8393,16 +7898,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 154.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8310a0d1-adae-4a33-85c4-eb79352d190a")
-	)
-	(wire
-		(pts
 			(xy 15.24 21.59) (xy 97.79 21.59)
 		)
 		(stroke
@@ -8413,7 +7908,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 88.9 100.33)
+			(xy 88.9 100.33) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8423,33 +7918,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 49.53) (xy 102.87 49.53)
+			(xy 74.93 49.53) (xy 148.59 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "857e6950-b76e-4195-9fde-642d302d7bb0")
-	)
-	(wire
-		(pts
-			(xy 110.49 72.39) (xy 158.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d93fbc-8628-47a5-9524-45d266093c1a")
-	)
-	(wire
-		(pts
-			(xy 196.85 62.23) (xy 196.85 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877afa91-cb9a-4140-92bf-ab73f9f3ce48")
 	)
 	(wire
 		(pts
@@ -8480,26 +7955,6 @@
 			(type default)
 		)
 		(uuid "8b580db6-4838-49c7-9a43-bb047618cccd")
-	)
-	(wire
-		(pts
-			(xy 236.22 133.35) (xy 236.22 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c09bc62-38eb-498b-9f1f-bac9da0cb88b")
-	)
-	(wire
-		(pts
-			(xy 229.87 133.35) (xy 228.6 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7fdf67-75c0-4c79-be68-062a90d55c80")
 	)
 	(wire
 		(pts
@@ -8543,6 +7998,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 74.93) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9171abb3-548a-46ed-ab3c-691faca0d4a8")
+	)
+	(wire
+		(pts
 			(xy 66.04 85.09) (xy 66.04 161.29)
 		)
 		(stroke
@@ -8550,16 +8015,6 @@
 			(type default)
 		)
 		(uuid "93106d14-94f3-42c4-9b4f-97620676c52a")
-	)
-	(wire
-		(pts
-			(xy 203.2 90.17) (xy 198.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a0a721-9e36-4254-bbdc-b240c0ef930b")
 	)
 	(wire
 		(pts
@@ -8583,13 +8038,33 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 102.87 87.63)
+			(xy 62.23 87.63) (xy 156.21 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "954fbc66-cc6b-47a3-971b-24f02c7a80d8")
+	)
+	(wire
+		(pts
+			(xy 218.44 134.62) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a4e80f-8070-4a23-88fc-9707deeea870")
+	)
+	(wire
+		(pts
+			(xy 214.63 58.42) (xy 217.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bb699f-ed7b-40f6-ac8d-9f7f83d8cf86")
 	)
 	(wire
 		(pts
@@ -8603,16 +8078,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 130.81) (xy 104.14 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96cfa8b6-0e95-463a-8819-793037da9220")
-	)
-	(wire
-		(pts
 			(xy 143.51 116.84) (xy 207.01 116.84)
 		)
 		(stroke
@@ -8620,6 +8085,16 @@
 			(type default)
 		)
 		(uuid "9707064a-2ded-416f-b0db-123ea6b8c077")
+	)
+	(wire
+		(pts
+			(xy 184.15 86.36) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b93c50-c9b3-4bd6-9337-455a74304f54")
 	)
 	(wire
 		(pts
@@ -8723,13 +8198,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 57.15) (xy 144.78 57.15)
+			(xy 242.57 142.24) (xy 248.92 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a26bf0c1-4f01-40cb-8be7-43b86998b388")
+		(uuid "a2e91ed0-2b9a-4681-9a5a-c86761bef6e1")
 	)
 	(wire
 		(pts
@@ -8753,16 +8228,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 87.63) (xy 156.21 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e7d256-d8b9-4c79-adf2-bb5abe706fd7")
-	)
-	(wire
-		(pts
 			(xy 80.01 64.77) (xy 80.01 161.29)
 		)
 		(stroke
@@ -8770,6 +8235,16 @@
 			(type default)
 		)
 		(uuid "a4fbc574-346b-4bb5-a267-e291d236dc52")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5045329-3c35-4a1f-9d74-aab6b0a3dee8")
 	)
 	(wire
 		(pts
@@ -8783,6 +8258,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 95.25) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67d7247-d310-4693-bda5-e14ebf2b91f5")
+	)
+	(wire
+		(pts
 			(xy 78.74 39.37) (xy 78.74 72.39)
 		)
 		(stroke
@@ -8790,6 +8275,16 @@
 			(type default)
 		)
 		(uuid "a7ad55a3-7319-44a0-8f42-6bdf00d8eff1")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 185.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8061068-f9ba-48fa-92c6-b91309fac1b4")
 	)
 	(wire
 		(pts
@@ -8843,6 +8338,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 135.89) (xy 229.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa72f7d6-6f30-44e1-9f73-1b96815e1947")
+	)
+	(wire
+		(pts
 			(xy 281.94 158.75) (xy 281.94 95.25)
 		)
 		(stroke
@@ -8850,6 +8355,16 @@
 			(type default)
 		)
 		(uuid "aa8421af-3479-42e5-b71d-00f4bb5828fa")
+	)
+	(wire
+		(pts
+			(xy 238.76 63.5) (xy 242.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1c59a6-62ac-4ab7-86c4-dcac6dd2b131")
 	)
 	(wire
 		(pts
@@ -8873,6 +8388,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8de0dc-defe-4c90-bbbd-865242eba8a7")
+	)
+	(wire
+		(pts
 			(xy 269.24 87.63) (xy 264.16 87.63)
 		)
 		(stroke
@@ -8880,16 +8405,6 @@
 			(type default)
 		)
 		(uuid "adcc4e0a-3533-4b4f-9015-f6f781a3f137")
-	)
-	(wire
-		(pts
-			(xy 219.71 66.04) (xy 219.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeff5551-d1c8-4ef6-a9a8-9d7089a61d23")
 	)
 	(wire
 		(pts
@@ -8903,6 +8418,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 63.5) (xy 242.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb5a3c2-652b-4a4a-8f22-4349d99d8ba8")
+	)
+	(wire
+		(pts
 			(xy 142.24 151.13) (xy 142.24 153.67)
 		)
 		(stroke
@@ -8910,16 +8435,6 @@
 			(type default)
 		)
 		(uuid "b080450e-c49a-4ba0-9b66-7211adbdf8b8")
-	)
-	(wire
-		(pts
-			(xy 110.49 52.07) (xy 147.32 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c077d0-07c6-4995-b2f6-7511b010c54f")
 	)
 	(wire
 		(pts
@@ -8933,7 +8448,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 102.87 69.85)
+			(xy 85.09 69.85) (xy 157.48 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8973,6 +8488,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 57.15) (xy 217.17 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b433bc83-5904-455f-ac42-d077306de045")
+	)
+	(wire
+		(pts
 			(xy 132.08 29.21) (xy 132.08 30.48)
 		)
 		(stroke
@@ -8983,23 +8508,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 146.05) (xy 104.14 139.7)
+			(xy 107.95 146.05) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b445bbdf-12a4-4905-a86b-88ae084f507a")
-	)
-	(wire
-		(pts
-			(xy 245.11 66.04) (xy 245.11 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f4647e-c7b3-4ffe-92f3-d0dc4bf59ac7")
 	)
 	(wire
 		(pts
@@ -9043,16 +8558,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 62.23) (xy 214.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7114d0f-ca9c-48de-817d-1d4816a79089")
-	)
-	(wire
-		(pts
 			(xy 283.21 92.71) (xy 264.16 92.71)
 		)
 		(stroke
@@ -9060,16 +8565,6 @@
 			(type default)
 		)
 		(uuid "b7274104-7e3e-43cf-a63f-cc51ed630eb2")
-	)
-	(wire
-		(pts
-			(xy 181.61 85.09) (xy 181.61 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7795507-8807-414e-91d5-fb98371263bc")
 	)
 	(wire
 		(pts
@@ -9083,13 +8578,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 129.54) (xy 267.97 129.54)
+			(xy 173.99 100.33) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9073a8-9734-479d-8809-70a06d7441cf")
+		(uuid "b93f81da-a650-4238-8782-483b7751a9d0")
 	)
 	(wire
 		(pts
@@ -9103,6 +8598,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 134.62) (xy 248.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde5f8c3-6bbc-4da4-887c-b2ddfbcb8537")
+	)
+	(wire
+		(pts
 			(xy 67.31 41.91) (xy 67.31 161.29)
 		)
 		(stroke
@@ -9113,23 +8618,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 146.05) (xy 121.92 146.05)
+			(xy 238.76 59.69) (xy 238.76 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be8363ce-f85b-49a7-9c68-3f647e520ea9")
-	)
-	(wire
-		(pts
-			(xy 203.2 82.55) (xy 196.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf593c8e-4ad0-4c80-b5c3-c34218f8fb78")
+		(uuid "bf7317f5-93b6-4ea2-90cd-5a39971e74c8")
 	)
 	(wire
 		(pts
@@ -9143,26 +8638,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.17) (xy 157.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0908d0a-d679-48d0-9aa7-c4a99b410aaa")
-	)
-	(wire
-		(pts
-			(xy 177.8 66.04) (xy 186.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09cf554-ce34-44ef-8441-13a9bf5445fa")
-	)
-	(wire
-		(pts
 			(xy 276.86 105.41) (xy 264.16 105.41)
 		)
 		(stroke
@@ -9170,6 +8645,16 @@
 			(type default)
 		)
 		(uuid "c0c6d7fe-573c-46f3-8221-78e6b86a625b")
+	)
+	(wire
+		(pts
+			(xy 195.58 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d4ca2f-b774-4fdf-8571-2e0bbd877dc4")
 	)
 	(wire
 		(pts
@@ -9223,6 +8708,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 130.81) (xy 240.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bbf0b5-c338-437f-87ad-268765fd8733")
+	)
+	(wire
+		(pts
 			(xy 137.16 160.02) (xy 137.16 180.34)
 		)
 		(stroke
@@ -9233,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 82.55) (xy 102.87 82.55)
+			(xy 64.77 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9263,6 +8758,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 64.77) (xy 214.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c667152e-f0ca-4b43-b463-b3bd6b8094af")
+	)
+	(wire
+		(pts
 			(xy 162.56 80.01) (xy 162.56 39.37)
 		)
 		(stroke
@@ -9273,7 +8778,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 81.28) (xy 170.18 81.28)
+			(xy 167.64 95.25) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9283,17 +8788,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 186.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ad689a-a587-45fc-bc1c-83725a37070d")
-	)
-	(wire
-		(pts
-			(xy 142.24 138.43) (xy 149.86 138.43)
+			(xy 142.24 138.43) (xy 147.32 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9323,6 +8818,36 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabf0d10-d380-45f1-a260-102b641f7c28")
+	)
+	(wire
+		(pts
+			(xy 186.69 86.36) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad22bab-69e0-4e50-87a7-a8b26e89c350")
+	)
+	(wire
+		(pts
+			(xy 238.76 59.69) (xy 240.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb49f243-63af-44c7-8c02-367e97d1bd87")
+	)
+	(wire
+		(pts
 			(xy 88.9 161.29) (xy 88.9 100.33)
 		)
 		(stroke
@@ -9333,7 +8858,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 102.87 46.99)
+			(xy 196.85 72.39) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcdec1d-10ff-449f-97b2-397981068ba2")
+	)
+	(wire
+		(pts
+			(xy 232.41 129.54) (xy 242.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf75d93-efea-46ad-a6b5-7c386f9a950b")
+	)
+	(wire
+		(pts
+			(xy 72.39 46.99) (xy 149.86 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9343,13 +8888,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 135.89) (xy 228.6 139.7)
+			(xy 219.71 62.23) (xy 222.25 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce776429-393c-4050-86fa-c312d4aee6f2")
+		(uuid "ce4ddb1a-00b3-4902-8b5a-8df3278bb721")
 	)
 	(wire
 		(pts
@@ -9383,26 +8928,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 62.23) (xy 240.03 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1926ecc-6c1d-4355-b2e9-1de37a01a558")
-	)
-	(wire
-		(pts
-			(xy 198.12 90.17) (xy 198.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e72c89-552d-4cd1-94f7-6a4b2a6bb56a")
-	)
-	(wire
-		(pts
 			(xy 146.05 143.51) (xy 142.24 143.51)
 		)
 		(stroke
@@ -9433,26 +8958,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 92.71) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4fb70e8-3ac7-4ec0-8d4e-0329c4427f0c")
-	)
-	(wire
-		(pts
-			(xy 180.34 87.63) (xy 180.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5cfa1de-49ac-49d2-bb54-c005f551880e")
-	)
-	(wire
-		(pts
 			(xy 134.62 160.02) (xy 134.62 180.34)
 		)
 		(stroke
@@ -9480,16 +8985,6 @@
 			(type default)
 		)
 		(uuid "d7befa9c-7a2a-4302-9d01-d478c84068cc")
-	)
-	(wire
-		(pts
-			(xy 196.85 66.04) (xy 196.85 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8eb2f7a-a582-4511-8046-0cf42e047160")
 	)
 	(wire
 		(pts
@@ -9533,7 +9028,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 102.87 72.39)
+			(xy 78.74 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9543,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 102.87 52.07)
+			(xy 68.58 52.07) (xy 147.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9573,6 +9068,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 100.33) (xy 203.2 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd05c13c-8552-4591-b133-36ea765f212c")
+	)
+	(wire
+		(pts
+			(xy 231.14 132.08) (xy 227.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb793a0-392e-4967-8f6c-7a51c33e6505")
+	)
+	(wire
+		(pts
 			(xy 78.74 72.39) (xy 78.74 161.29)
 		)
 		(stroke
@@ -9583,7 +9098,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 133.35) (xy 228.6 135.89)
+			(xy 229.87 127) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9603,13 +9118,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 92.71) (xy 180.34 96.52)
+			(xy 242.57 129.54) (xy 242.57 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1347289-f3d3-47c9-9818-2fd2dab9463c")
+		(uuid "e0c1322a-42a9-4487-b456-62feabb06baf")
+	)
+	(wire
+		(pts
+			(xy 208.28 57.15) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e235ce75-f904-4eec-a18c-f1c37c31b30f")
 	)
 	(wire
 		(pts
@@ -9620,6 +9145,26 @@
 			(type default)
 		)
 		(uuid "e27623b2-eec4-4154-ab78-85075a82bb16")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e434800f-5da0-4bb5-a430-6a2a7ec60bcd")
+	)
+	(wire
+		(pts
+			(xy 242.57 134.62) (xy 242.57 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47b21ca-cb28-475c-9779-d06faa077532")
 	)
 	(wire
 		(pts
@@ -9673,16 +9218,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 66.04) (xy 242.57 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e77557ba-d586-40e8-aed3-7e1582279bca")
-	)
-	(wire
-		(pts
 			(xy 81.28 74.93) (xy 81.28 161.29)
 		)
 		(stroke
@@ -9690,26 +9225,6 @@
 			(type default)
 		)
 		(uuid "e7819d83-6d4c-482d-8d82-13576a1384fc")
-	)
-	(wire
-		(pts
-			(xy 104.14 146.05) (xy 116.84 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e809865e-d369-43f5-9d21-1c17832aa3ef")
-	)
-	(wire
-		(pts
-			(xy 110.49 67.31) (xy 156.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a144bf-b75e-4a4b-b2e9-31642f2c0716")
 	)
 	(wire
 		(pts
@@ -9723,16 +9238,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 60.96) (xy 270.51 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb867289-a03d-4d4e-a890-6cc8eb723aec")
-	)
-	(wire
-		(pts
 			(xy 162.56 39.37) (xy 269.24 39.37)
 		)
 		(stroke
@@ -9740,26 +9245,6 @@
 			(type default)
 		)
 		(uuid "ebc6d340-0f02-4436-810f-cf0aeb0a689d")
-	)
-	(wire
-		(pts
-			(xy 227.33 127) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe1c998-c55e-40ab-932d-c3c633399da3")
-	)
-	(wire
-		(pts
-			(xy 203.2 95.25) (xy 196.85 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3a0169-dd05-46f3-b4bd-fccc32da4323")
 	)
 	(wire
 		(pts
@@ -9803,6 +9288,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 142.24) (xy 242.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb8e81a-d606-4a36-91e4-d4d3cb675742")
+	)
+	(wire
+		(pts
 			(xy 156.21 87.63) (xy 156.21 153.67)
 		)
 		(stroke
@@ -9813,33 +9308,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 44.45) (xy 151.13 44.45)
+			(xy 214.63 64.77) (xy 214.63 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1470ff6-6e89-4deb-ab16-af7d9065b334")
-	)
-	(wire
-		(pts
-			(xy 236.22 135.89) (xy 236.22 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b4924e-b32e-4939-abea-11bb60d67b16")
-	)
-	(wire
-		(pts
-			(xy 208.28 128.27) (xy 196.85 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35f8b5e-6a8e-4a44-8340-6df0f57f6434")
+		(uuid "f2084ec5-b222-4342-a330-6fc7cfa6a112")
 	)
 	(wire
 		(pts
@@ -9853,43 +9328,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 104.14 130.81)
+			(xy 170.18 67.31) (xy 172.72 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f45156f7-180a-4cbe-bd69-2242f1bd0c24")
+		(uuid "f4fff7f1-7533-4bab-914d-5b4f209ead52")
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 196.85 66.04)
+			(xy 170.18 64.77) (xy 170.18 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f531e748-a3c1-4ef1-bbff-1cb835d043d8")
+		(uuid "f570f593-40a2-476f-983f-5351d0c6b53d")
 	)
 	(wire
 		(pts
-			(xy 267.97 127) (xy 267.97 128.27)
+			(xy 107.95 146.05) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f69882bc-c94b-4481-8e44-6711eb237a2f")
-	)
-	(wire
-		(pts
-			(xy 245.11 62.23) (xy 240.03 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70535bf-b317-426b-91f6-8ab54755b5e7")
+		(uuid "f58b0268-1be0-468c-bb2c-0fad90dec22f")
 	)
 	(wire
 		(pts
@@ -9903,13 +9368,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 162.56) (xy 127 162.56)
+			(xy 147.32 162.56) (xy 127 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8792bb1-eff3-4a38-94a0-6c19abadad8f")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 184.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8af72ca-6543-413d-9ba2-00fabe318578")
 	)
 	(wire
 		(pts
@@ -9923,23 +9398,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 57.15) (xy 102.87 57.15)
+			(xy 73.66 57.15) (xy 144.78 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f986d70e-d738-42da-8369-f4be2050b6af")
-	)
-	(wire
-		(pts
-			(xy 270.51 127) (xy 267.97 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2d62e8-3cd8-4ea5-80e7-c510f79227d0")
 	)
 	(wire
 		(pts
@@ -9963,16 +9428,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 143.51 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdeb7874-dbfc-40a0-a801-818279bd4db2")
-	)
-	(wire
-		(pts
 			(xy 154.94 46.99) (xy 250.19 46.99)
 		)
 		(stroke
@@ -9990,6 +9445,16 @@
 			(type default)
 		)
 		(uuid "ffe32101-caa9-4047-81f2-bc03a0b5e265")
+	)
+	(wire
+		(pts
+			(xy 238.76 55.88) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeed466-1318-4416-a091-aa7409945c99")
 	)
 	(text "Balanced (+)"
 		(exclude_from_sim no)
@@ -10013,39 +9478,9 @@
 		)
 		(uuid "61fa6347-7c15-498c-be9a-b064ec538542")
 	)
-	(text "PAD"
-		(exclude_from_sim no)
-		(at 269.24 130.81 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ff178eb-145f-4043-910c-5acaa492e58f")
-	)
-	(label "USB-R_D-"
-		(at 177.8 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "496cc378-4070-40b2-b683-ecaa79004a5f")
-	)
-	(label "USB-R_D+"
-		(at 177.8 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "923d6655-e4d3-4831-a957-4b73cdc671bf")
-	)
-	(label "R-MCU_D-"
-		(at 190.5 85.09 0)
+	(label "MCU-"
+		(at 195.58 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10054,8 +9489,9 @@
 		)
 		(uuid "b9fd320f-7700-4bec-914e-74dd7cb6d2c3")
 	)
-	(label "R-MCU_D+"
-		(at 190.5 87.63 0)
+	(label "MCU+"
+		(at 195.58 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10063,6 +9499,28 @@
 			(justify left bottom)
 		)
 		(uuid "df3a1503-03c2-4efe-a07b-4a715858a3fb")
+	)
+	(label "USB-"
+		(at 177.8 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3e5fe1e-5361-4251-a92f-7899da8e692c")
+	)
+	(label "USB+"
+		(at 177.8 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f612ed29-dce0-47d0-a023-594d6313e798")
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:AT90USB1286-jamma-streamer-rescue")
@@ -10309,7 +9767,7 @@
 			(uuid "9f1acf3c-5355-42c8-9cd5-39b362ab0a8f")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "U3")
 					(unit 1)
@@ -10318,207 +9776,8 @@
 		)
 	)
 	(symbol
-		(lib_id "jamma-streamer-rescue:+5V-jamma-streamer-rescue")
-		(at 196.85 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e1980")
-		(property "Reference" "#PWR01"
-			(at 196.85 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 196.85 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "513f1b6e-c229-4ef9-a5ba-c73dc5bacff8")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue")
-		(at 186.69 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e1aac")
-		(property "Reference" "C1"
-			(at 186.944 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 186.944 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61322d76-2f73-4d4b-aea0-8443d61acdbf")
-		)
-		(pin "2"
-			(uuid "d466d399-ed09-4f3c-88c5-dcef1b704867")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 186.69 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e1b1a")
-		(property "Reference" "#PWR02"
-			(at 186.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d85b6e5d-c704-4bd2-8241-4e316cba6da0")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 186.69 85.09 270)
+		(at 190.5 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10526,7 +9785,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e218c")
 		(property "Reference" "R1"
-			(at 186.69 82.55 90)
+			(at 190.5 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,7 +9793,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 186.69 85.09 90)
+			(at 190.5 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 186.69 83.312 90)
+			(at 190.5 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 85.09 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +9819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 85.09 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +9834,7 @@
 			(uuid "90a861d7-9d87-4fbc-b5cb-a9d6c2e59b5e")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R1")
 					(unit 1)
@@ -10585,7 +9844,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 186.69 87.63 270)
+		(at 190.5 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10593,7 +9852,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e226a")
 		(property "Reference" "R2"
-			(at 186.69 89.662 90)
+			(at 190.5 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +9860,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 186.69 87.63 90)
+			(at 190.5 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +9868,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 186.69 85.852 90)
+			(at 190.5 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +9877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 87.63 0)
+			(at 190.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +9886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 87.63 0)
+			(at 190.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +9901,7 @@
 			(uuid "82900f9a-fbc3-4781-b5f7-86e2e99e8d15")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R2")
 					(unit 1)
@@ -10651,77 +9910,8 @@
 		)
 	)
 	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue")
-		(at 186.69 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e2666")
-		(property "Reference" "C2"
-			(at 188.468 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 184.658 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9508632-0207-4692-8168-a23af7509cfa")
-		)
-		(pin "2"
-			(uuid "dfd2c659-d199-444c-9d0e-bd9a4e1a9f15")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 180.34 96.52 0)
+		(at 184.15 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10729,7 +9919,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e2718")
 		(property "Reference" "#PWR04"
-			(at 180.34 102.87 0)
+			(at 177.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10738,7 +9928,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 100.33 0)
+			(at 180.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +9936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 96.52 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +9945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 96.52 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +9954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 96.52 0)
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +9966,7 @@
 			(uuid "1a78396a-0e5c-4a2e-b175-7749ae87b208")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR04")
 					(unit 1)
@@ -10786,7 +9976,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 222.25 144.78 0)
+		(at 218.44 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10794,7 +9984,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e29eb")
 		(property "Reference" "#PWR05"
-			(at 222.25 151.13 0)
+			(at 218.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +9993,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 148.59 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +10001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 144.78 0)
+			(at 218.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,7 +10010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 144.78 0)
+			(at 218.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +10019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 144.78 0)
+			(at 218.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10031,7 @@
 			(uuid "6d7377f8-aa22-4199-a21f-bff2f4e1467d")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR05")
 					(unit 1)
@@ -10851,7 +10041,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 267.97 121.92 0)
+		(at 271.78 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10859,7 +10049,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e2a29")
 		(property "Reference" "R3"
-			(at 265.43 121.92 90)
+			(at 271.78 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +10057,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 267.97 121.92 90)
+			(at 271.78 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10065,7 @@
 			)
 		)
 		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 266.192 121.92 90)
+			(at 271.78 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +10074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 121.92 0)
+			(at 271.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +10083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 121.92 0)
+			(at 271.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10098,7 @@
 			(uuid "11086ed3-9a4e-414d-980f-010e161142f1")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R3")
 					(unit 1)
@@ -10918,7 +10108,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:SW_Push-jamma-streamer-rescue")
-		(at 222.25 139.7 90)
+		(at 218.44 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10926,7 +10116,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e2f28")
 		(property "Reference" "SW1"
-			(at 219.71 138.43 0)
+			(at 215.9 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10125,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 223.774 139.7 0)
+			(at 219.964 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10943,7 +10133,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BUTTON"
-			(at 217.17 139.7 0)
+			(at 213.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,7 +10142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 139.7 0)
+			(at 213.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +10151,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 139.7 0)
+			(at 218.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +10166,7 @@
 			(uuid "47e1bc90-a28a-4f06-afbc-7bed9b680b96")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "SW1")
 					(unit 1)
@@ -10986,7 +10176,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 267.97 144.78 0)
+		(at 275.59 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10994,7 +10184,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e3079")
 		(property "Reference" "#PWR06"
-			(at 267.97 151.13 0)
+			(at 281.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +10193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 148.59 0)
+			(at 279.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +10201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 144.78 0)
+			(at 275.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +10210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 144.78 0)
+			(at 275.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +10219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 144.78 0)
+			(at 275.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +10231,7 @@
 			(uuid "4492e92b-4d22-4ad5-97f6-0894548b2bbc")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR06")
 					(unit 1)
@@ -11051,7 +10241,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:Crystal_Small-jamma-streamer-rescue")
-		(at 232.41 135.89 0)
+		(at 242.57 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11059,7 +10249,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e3278")
 		(property "Reference" "Y1"
-			(at 234.95 134.62 0)
+			(at 241.3 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +10257,7 @@
 			)
 		)
 		(property "Value" "16MHz"
-			(at 232.41 138.43 0)
+			(at 245.11 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +10265,7 @@
 			)
 		)
 		(property "Footprint" "footprints:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
-			(at 232.41 135.89 0)
+			(at 242.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +10274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 135.89 0)
+			(at 242.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +10283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 135.89 0)
+			(at 242.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,7 +10298,7 @@
 			(uuid "0431a18e-1bb0-40e4-9712-b810d6d192dc")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "Y1")
 					(unit 1)
@@ -11117,146 +10307,8 @@
 		)
 	)
 	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue")
-		(at 236.22 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e32c6")
-		(property "Reference" "C5"
-			(at 236.474 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pF"
-			(at 236.474 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "537821c8-a4dc-40ee-a7c3-f42c29df850d")
-		)
-		(pin "2"
-			(uuid "ecd42337-c5ce-4391-a5ec-82e84a35cd34")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue")
-		(at 228.6 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8e333e")
-		(property "Reference" "C4"
-			(at 228.854 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pF"
-			(at 228.854 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 228.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e903ba28-6d5d-4c2b-a104-6689696f467b")
-		)
-		(pin "2"
-			(uuid "568223c4-55cd-411d-b032-c3c9ad94851e")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 228.6 144.78 0)
+		(at 254 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11264,7 +10316,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e34ae")
 		(property "Reference" "#PWR07"
-			(at 228.6 151.13 0)
+			(at 260.35 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +10325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 148.59 0)
+			(at 257.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11281,7 +10333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 144.78 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11290,7 +10342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 144.78 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +10351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 144.78 0)
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,7 +10363,7 @@
 			(uuid "951db624-6cde-4c3b-8d0f-7e6603b2a93e")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR07")
 					(unit 1)
@@ -11321,7 +10373,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 236.22 144.78 0)
+		(at 254 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11329,7 +10381,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e34da")
 		(property "Reference" "#PWR08"
-			(at 236.22 151.13 0)
+			(at 260.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11338,7 +10390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 148.59 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +10398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 144.78 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,7 +10407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 144.78 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11364,7 +10416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 144.78 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +10428,7 @@
 			(uuid "beaf8ebf-3514-43b2-a32f-898c9649dacd")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR08")
 					(unit 1)
@@ -11605,7 +10657,7 @@
 			(uuid "4b48fcf4-f04e-4e39-8ab8-99c01031b1a6")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "U2")
 					(unit 1)
@@ -11835,342 +10887,9 @@
 			(uuid "4bed1b1f-61a7-47cd-bc93-d1591060821b")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-jamma-streamer-rescue")
-		(at 219.71 57.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b92275a")
-		(property "Reference" "C3"
-			(at 219.456 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 219.456 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5b59124-4626-4ac5-9fb5-7deeef92e5d9")
-		)
-		(pin "1"
-			(uuid "476f191c-0ca2-4503-b9ce-c325af8233fa")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 219.71 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b922889")
-		(property "Reference" "#PWR09"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf13fa88-37f6-41aa-bbd5-32a7786353e8")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:LED-jamma-streamer-rescue")
-		(at 250.19 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b944def")
-		(property "Reference" "D1"
-			(at 247.65 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 252.73 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:LED_0603_1608Metric"
-			(at 250.19 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ed83f3a-58a0-4dc6-993e-fea1bdc283e0")
-		)
-		(pin "1"
-			(uuid "ddfaf092-a443-4dbc-be7f-f09ddedd6b82")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 250.19 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b94525c")
-		(property "Reference" "R29"
-			(at 252.222 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 250.19 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 248.412 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2652d77a-7b97-4fcf-830f-4efdb3b38221")
-		)
-		(pin "1"
-			(uuid "1bde412f-38d5-4649-8f3a-001503c69fb0")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 250.19 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9454f3")
-		(property "Reference" "#PWR0101"
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 250.19 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02aeba7e-7131-419b-bd42-835977ac42fc")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -12233,7 +10952,7 @@
 			(uuid "71a93e96-2060-4d5d-bef2-71e8d19bb123")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0102")
 					(unit 1)
@@ -12299,7 +11018,7 @@
 			(uuid "de1e63b2-fd96-4fe3-ae06-a7b5bb076025")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0107")
 					(unit 1)
@@ -12365,7 +11084,7 @@
 			(uuid "b3fe8fe7-6654-4dba-a3e9-11abf94956a2")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0108")
 					(unit 1)
@@ -12383,7 +11102,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b9f6abf")
 		(property "Reference" "U4"
-			(at 142.113 195.072 90)
+			(at 136.906 194.818 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12391,7 +11110,7 @@
 			)
 		)
 		(property "Value" "HD15"
-			(at 142.113 197.7644 90)
+			(at 145.288 194.818 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12477,7 +11196,7 @@
 			(uuid "ff810b9f-b0e9-4cb2-b383-c1a5a4dedab9")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "U4")
 					(unit 1)
@@ -12543,7 +11262,7 @@
 			(uuid "a554a45c-b26c-41d6-b216-1371f2ca9414")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0109")
 					(unit 1)
@@ -12609,277 +11328,9 @@
 			(uuid "108cb04a-d1b7-42ed-b3d7-831d76ce0dc5")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 240.03 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ba6baa5")
-		(property "Reference" "C8"
-			(at 242.3668 55.9816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 242.3668 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 240.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ad3edc0-1d9e-4aa1-8618-0d7bae0120de")
-		)
-		(pin "2"
-			(uuid "469b08f4-43c5-4529-a393-5d311567b7ac")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 240.03 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bab6de3")
-		(property "Reference" "#PWR0104"
-			(at 240.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 239.903 50.2158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1822a286-6a45-4c3e-879d-f26b0d3b02cd")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 208.28 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bacee6b")
-		(property "Reference" "C7"
-			(at 210.6168 132.1816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 210.6168 134.493 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bb64e8c-2a39-43e6-b538-4b25a3f61e27")
-		)
-		(pin "2"
-			(uuid "07b372b0-445e-4997-b617-8977a1e9c67d")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 208.28 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005bae7214")
-		(property "Reference" "#PWR0105"
-			(at 208.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.407 140.2842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "384cc976-94ed-4d71-ad02-5e43885b96b9")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -12943,7 +11394,7 @@
 			(uuid "3b1d89e8-7c38-4fcd-841d-53f2eb3daa97")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0103")
 					(unit 1)
@@ -12953,7 +11404,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:USB_B-Connector")
-		(at 170.18 71.12 0)
+		(at 170.18 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12961,7 +11412,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bb35a6a")
 		(property "Reference" "J2"
-			(at 171.577 59.2582 0)
+			(at 173.99 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,7 +11420,7 @@
 			)
 		)
 		(property "Value" "USB_B"
-			(at 171.577 61.5696 0)
+			(at 168.148 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,7 +11428,7 @@
 			)
 		)
 		(property "Footprint" "footprints:USB_B_OST_USB-B1HSxx_Horizontal"
-			(at 173.99 72.39 0)
+			(at 173.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +11437,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 173.99 72.39 0)
+			(at 173.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +11446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 71.12 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +11470,7 @@
 			(uuid "9def1804-d835-4c0b-a482-16ac3fcc767f")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "J2")
 					(unit 1)
@@ -13029,7 +11480,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 170.18 81.28 0)
+		(at 170.18 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13037,7 +11488,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bb6af43")
 		(property "Reference" "#PWR0110"
-			(at 170.18 87.63 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,7 +11497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.307 85.6742 0)
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +11505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 81.28 0)
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +11514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 81.28 0)
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +11523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 81.28 0)
+			(at 170.18 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,7 +11535,7 @@
 			(uuid "2bbf2cd5-b909-4a13-b53f-7882bbb0e2f5")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0110")
 					(unit 1)
@@ -13189,7 +11640,7 @@
 			(uuid "718fb2be-6491-4a1d-87fd-8c2ddadcd68c")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "J1")
 					(unit 1)
@@ -13254,7 +11705,7 @@
 			(uuid "61f0b369-504a-48f9-9615-05c963f01314")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR?")
 					(unit 1)
@@ -13321,7 +11772,7 @@
 			(uuid "f69c03f6-cb43-4c4b-a7ad-b72ff47c5e3a")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R4")
 					(unit 1)
@@ -13331,7 +11782,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 147.32 146.05 0)
+		(at 142.24 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13339,7 +11790,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bda59a3")
 		(property "Reference" "#PWR?"
-			(at 147.32 152.4 0)
+			(at 142.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +11799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.447 150.4442 0)
+			(at 142.24 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13356,7 +11807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 146.05 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13365,7 +11816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 146.05 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13374,7 +11825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 146.05 0)
+			(at 142.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,1617 +11837,9 @@
 			(uuid "9cce7a07-c82d-4775-aef2-d9b05f98944e")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c4b7098")
-		(property "Reference" "R7"
-			(at 110.49 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 42.672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35a05b7d-baae-4f91-b99f-aa33e00263af")
-		)
-		(pin "2"
-			(uuid "7aa986ad-8fc8-4acb-8f7c-c4d772cd8839")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c4d6213")
-		(property "Reference" "R6"
-			(at 110.49 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 40.132 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdc5a1b8-f3c1-4e5e-b0ed-88afd521e111")
-		)
-		(pin "2"
-			(uuid "88451a7b-da2b-4054-85ec-800edb11cbc9")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c4f519c")
-		(property "Reference" "R9"
-			(at 110.49 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37d8c32a-8c29-465f-bbaf-5632e6dde6fa")
-		)
-		(pin "2"
-			(uuid "74d6f0e3-3497-44f9-8096-dfee998c74d8")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c4f51a2")
-		(property "Reference" "R8"
-			(at 110.49 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 45.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2bea140-e2e3-4311-9e35-0d671b83c5b1")
-		)
-		(pin "2"
-			(uuid "fe57c721-0367-4464-b123-f2a098f6ff04")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5141a5")
-		(property "Reference" "R11"
-			(at 110.49 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 52.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1608c282-c53f-4be7-99cf-e789e593e1fc")
-		)
-		(pin "1"
-			(uuid "3ad51c26-ab83-4651-91e1-516ca3b84906")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5141ab")
-		(property "Reference" "R10"
-			(at 110.49 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f0e0e3d-7627-4cfb-9b17-ab3a43fb99ba")
-		)
-		(pin "2"
-			(uuid "26e7cc96-89d3-4547-9739-5f447dd81f6d")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5141b1")
-		(property "Reference" "R13"
-			(at 110.49 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ebe1d67-c6d3-4459-8f5c-7258af7d3988")
-		)
-		(pin "2"
-			(uuid "a8e23ece-5ce7-465e-86e4-7f93cdfba8a7")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5141b7")
-		(property "Reference" "R12"
-			(at 110.49 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 55.372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8c6cf66-dfdf-4cab-9ac3-4fbb96b7006e")
-		)
-		(pin "2"
-			(uuid "0b207c16-e122-4d1c-912a-a8b76bcf9a33")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332a0")
-		(property "Reference" "R17"
-			(at 110.49 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6e1d0a5-30a4-465e-966d-445a14edefeb")
-		)
-		(pin "2"
-			(uuid "61336c8f-bbe5-4178-ac10-13e2b53d3bba")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332a6")
-		(property "Reference" "R14"
-			(at 110.49 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6bc8806-3bff-4a88-a798-8c39618ce87c")
-		)
-		(pin "2"
-			(uuid "9950dce9-12fb-4771-b1c5-ed66575e4d9f")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332ac")
-		(property "Reference" "R19"
-			(at 110.49 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "700a415b-793d-479d-81ff-17d91fcd6a16")
-		)
-		(pin "2"
-			(uuid "c3770ce9-0328-4f58-9e89-8b56b6f651c4")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332b2")
-		(property "Reference" "R18"
-			(at 110.49 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78fc4ec1-c60e-47ea-9315-bbf3806f2290")
-		)
-		(pin "2"
-			(uuid "ce75412f-aa4c-4a26-87a9-a4b718b2aaaa")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332b8")
-		(property "Reference" "R21"
-			(at 110.49 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 73.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b46338a-561c-45bc-a241-627cacbc7871")
-		)
-		(pin "2"
-			(uuid "232a4ed9-e3a6-44f1-a162-ff4c693a32bd")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332be")
-		(property "Reference" "R20"
-			(at 110.49 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e063e9c-1360-4987-ae93-3c85feda8861")
-		)
-		(pin "1"
-			(uuid "0c7084d1-2e9d-4738-9505-c0af5ae2a7b5")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332c4")
-		(property "Reference" "R23"
-			(at 110.49 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 78.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1abe587e-90b4-45dc-9201-9d7b766ea6b6")
-		)
-		(pin "2"
-			(uuid "1ccb847e-7fa7-4ba2-9bcb-6a9b46688be4")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5332ca")
-		(property "Reference" "R22"
-			(at 110.49 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 75.692 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de1883f8-1793-4c7a-b929-747081798cf2")
-		)
-		(pin "2"
-			(uuid "0f49eff0-2b03-4c91-9b82-067374f2742d")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523ca")
-		(property "Reference" "R25"
-			(at 110.49 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 83.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db4b4e0c-6390-446d-be27-cb0b1125ae72")
-		)
-		(pin "2"
-			(uuid "a07be661-e8b6-4cbc-a6a5-a8e129668dab")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523d0")
-		(property "Reference" "R24"
-			(at 110.49 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c665fc-b53d-4c21-ab60-274a65636792")
-		)
-		(pin "2"
-			(uuid "fcb364a2-9efa-4103-83a7-92c60a4de261")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523d6")
-		(property "Reference" "R27"
-			(at 110.49 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bee6e52-8a90-4577-838b-ae35576ab679")
-		)
-		(pin "2"
-			(uuid "c256fa78-7ef3-41cf-877c-d6614b060535")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523dc")
-		(property "Reference" "R26"
-			(at 110.49 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "595d1470-0fe9-428f-903a-91846b79703b")
-		)
-		(pin "2"
-			(uuid "a50c8210-4aa1-424e-a147-bffc1f564500")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523e2")
-		(property "Reference" "R31"
-			(at 110.49 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d737678b-a654-4358-8649-d930706f1e11")
-		)
-		(pin "1"
-			(uuid "26fa5ad7-db84-44e2-825c-ad8a0e6b73c1")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c5523e8")
-		(property "Reference" "R30"
-			(at 110.49 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba88a5f5-d638-4ea2-868c-0022f5a760ca")
-		)
-		(pin "2"
-			(uuid "d2629468-e37f-4796-ac06-52d9f7046fb9")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c571387")
-		(property "Reference" "R32"
-			(at 110.49 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a115d49-1774-4dd1-88d7-fd522da97c06")
-		)
-		(pin "1"
-			(uuid "cc72e78c-45fa-41bc-848a-e17f499254ed")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c590388")
-		(property "Reference" "R33"
-			(at 110.49 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 106.68 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
-			(at 106.68 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d11c55-8b5b-401a-b013-c8f156805ffe")
-		)
-		(pin "2"
-			(uuid "1de48f59-f103-4e1a-9736-a5311ba5e0fa")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -15097,7 +11940,7 @@
 			(uuid "6b8840b3-8a3e-41c5-ad70-52e1ed535a4e")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "U5")
 					(unit 1)
@@ -15166,7 +12009,7 @@
 			(uuid "198a117d-40b2-4e69-a61e-07804f2a9628")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R37")
 					(unit 1)
@@ -15235,7 +12078,7 @@
 			(uuid "b77de18d-1301-4252-82f3-ed11bea2c969")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R38")
 					(unit 1)
@@ -15304,7 +12147,7 @@
 			(uuid "605e252f-6692-4bbd-bf67-7125880a0446")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R39")
 					(unit 1)
@@ -15314,7 +12157,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:+5V-jamma-streamer-rescue")
-		(at 101.6 146.05 90)
+		(at 107.95 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15322,7 +12165,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d59f9a9")
 		(property "Reference" "#PWR0113"
-			(at 105.41 146.05 0)
+			(at 111.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +12174,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 98.3488 145.669 90)
+			(at 104.6988 145.669 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +12183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 146.05 0)
+			(at 107.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +12192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 146.05 0)
+			(at 107.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +12201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 146.05 0)
+			(at 107.95 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,7 +12213,7 @@
 			(uuid "b46e3474-d59c-4130-b1a3-227b0d484435")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0113")
 					(unit 1)
@@ -15379,146 +12222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 116.84 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d894f30")
-		(property "Reference" "C9"
-			(at 118.11 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 110.49 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:C_0603_1608Metric"
-			(at 117.8052 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82b516a9-bc0b-47b3-8409-bbdf9542fd45")
-		)
-		(pin "2"
-			(uuid "f5d7bb45-4c6b-4f88-84a3-5ad81fedb341")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jamma-streamer-rescue:CP1_Small-Device")
-		(at 104.14 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d90922d")
-		(property "Reference" "C6"
-			(at 99.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.7uf"
-			(at 97.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8403699c-5b2b-4b52-858c-023e661f10c1")
-		)
-		(pin "1"
-			(uuid "f040b1a7-34cb-4ae9-b458-74c141ddbb76")
-		)
-		(instances
-			(project "jamma-streamer"
-				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 104.14 130.81 270)
+		(at 107.95 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15526,7 +12231,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d957a96")
 		(property "Reference" "#PWR0115"
-			(at 97.79 130.81 0)
+			(at 107.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15535,7 +12240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.8888 130.937 90)
+			(at 105.918 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15544,7 +12249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 130.81 0)
+			(at 107.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +12258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 130.81 0)
+			(at 107.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15562,7 +12267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 130.81 0)
+			(at 107.95 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,7 +12279,7 @@
 			(uuid "703c28bf-e9b0-41ae-b00e-0c82077fc823")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "#PWR0115")
 					(unit 1)
@@ -15648,7 +12353,7 @@
 			(uuid "82911b06-b6dc-4f7a-9dd5-955190161ffc")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "T1")
 					(unit 1)
@@ -15715,7 +12420,7 @@
 			(uuid "a1a7a4bc-bf18-4698-9571-de5e0d32de0b")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R40")
 					(unit 1)
@@ -15784,9 +12489,1614 @@
 			(uuid "4f8bda36-af8b-48c3-b414-99586f798787")
 		)
 		(instances
-			(project "jamma-streamer"
+			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:+5V-jamma-streamer-rescue")
+		(at 196.85 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09b9cd59-292b-403c-bd8c-934f20ed17df")
+		(property "Reference" "#PWR017"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 196.85 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4509b579-bfdb-4b9e-897d-6f66e99a29fb")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 116.84 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd6c16a-9fc6-4a3a-8c21-68b0449de2a9")
+		(property "Reference" "#PWR03"
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.808 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66c2c2d-a796-450d-b6ea-24aee4759619")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a23d1c-5fe7-453a-8003-29a3e8cc7451")
+		(property "Reference" "C11"
+			(at 250.698 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 254 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b4fe3e-228b-4cf3-96ae-b08b4a647d7d")
+		)
+		(pin "2"
+			(uuid "190b6359-b48c-4b45-9266-73ad775a0719")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a7430db-dede-4916-949a-f7dd308bd397")
+		(property "Reference" "C9"
+			(at 194.31 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 196.088 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f165ef95-69ed-44d0-b92a-0c49d96b98b2")
+		)
+		(pin "2"
+			(uuid "bde59603-a6ee-408d-b2ef-f9afd81aa454")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 212.09 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "355a15ce-769b-48b5-927e-ee1d8110c5e7")
+		(property "Reference" "C4"
+			(at 213.36 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 215.138 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6edd682-54bf-4eb1-bfe4-a16bee30c6cd")
+		)
+		(pin "2"
+			(uuid "820635f1-44a8-45c0-bbb3-b3efd7e688c4")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 245.11 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3777f6ba-4c7c-46d6-866f-a116d7e9f72a")
+		(property "Reference" "#PWR012"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 245.11 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "459263af-d92d-4723-9453-113f758a40a2")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "393fed1f-7561-4a1e-96d7-980e3a2851a2")
+		(property "Reference" "C5"
+			(at 219.456 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 222.504 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0440be2-5790-4a79-b596-2cd46ae46309")
+		)
+		(pin "2"
+			(uuid "ae6d7eac-a2dd-4260-95d6-0d549e88329b")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fa9aeec-368a-422a-9bd0-fea89818f500")
+		(property "Reference" "#PWR014"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5a4bb2-6fec-40c3-9b2c-f29baf473b07")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 200.66 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ab76500-352b-45fc-a625-46264a680c00")
+		(property "Reference" "#PWR010"
+			(at 194.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.2658 90.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2f0e63e-dd69-49bf-a93a-5a2549db9dca")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fac3d0a-518b-437b-ae26-8d8dec70f23f")
+		(property "Reference" "#PWR013"
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 208.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "207a8a3f-12a7-4c6a-88de-0cd57f441501")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:+5V-jamma-streamer-rescue")
+		(at 170.18 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5043a452-dd7f-412b-a721-929d0fba989c")
+		(property "Reference" "#PWR016"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b1ab053-fbfd-497f-966e-b9e20dffcb4c")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ce8fdd-f263-486f-92a4-eda2d9edb87f")
+		(property "Reference" "#PWR09"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92215d00-68d6-4bc1-b69f-65a55506c216")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "737e3af5-476a-4aab-9337-520c1dc9ba21")
+		(property "Reference" "C8"
+			(at 188.976 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 189.484 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a179f12-ee70-4283-8349-09b08123aa30")
+		)
+		(pin "1"
+			(uuid "c1ba441a-044f-4c7b-9df0-fe3b046d863f")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e90d8f-70d3-4fed-898d-84938b04ef73")
+		(property "Reference" "C3"
+			(at 250.444 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 254 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aae8f366-35a7-48fd-9a35-9d928d711d4e")
+		)
+		(pin "2"
+			(uuid "e7f715ce-9296-4bed-bb99-d0df26251396")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 177.8 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8676b3d1-5cba-4b41-bb22-f005bcf12ccc")
+		(property "Reference" "#PWR01"
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.1942 67.183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b84656f-4bf3-446f-84e5-9616e265c14e")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 242.57 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "998ee84d-51ca-4d0d-b75e-6973dbfb5f3e")
+		(property "Reference" "C2"
+			(at 239.014 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 238.76 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d106995e-229c-4486-850c-796fb7390ef2")
+		)
+		(pin "2"
+			(uuid "bfa1e3c7-298f-4c37-bae7-d88325ce3740")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bf1bb86-3a1a-493c-96ba-6eefcbc63c34")
+		(property "Reference" "C1"
+			(at 230.886 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "937dcb5e-8e1c-43ba-8de5-ee30dd5424db")
+		)
+		(pin "2"
+			(uuid "92c31c5b-32cb-4558-9528-18486f5cf2a3")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a12d7a88-b395-4b2c-a4b1-fec8097e70a8")
+		(property "Reference" "C10"
+			(at 112.522 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 110.236 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d4aa93e-dfac-449e-8b67-f90d84135222")
+		)
+		(pin "1"
+			(uuid "089c1043-cc86-4e1f-a1f4-427336219cf9")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 224.79 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25b7386-d23c-43bc-8990-30c3d6a76226")
+		(property "Reference" "#PWR02"
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 224.79 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccff5fe2-ce73-4af6-acdc-694f99187fb7")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 190.5 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5018605-b245-46ea-9de4-c5cacaeabd55")
+		(property "Reference" "#PWR018"
+			(at 184.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.1058 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c4d6a9-a230-4a6c-8af8-e89abb26773b")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 107.95 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ee07d0-4fce-4840-b7ef-46e75f70feec")
+		(property "Reference" "C6"
+			(at 104.902 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 102.108 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fbea375-629c-485d-8693-cfedfccc482b")
+		)
+		(pin "1"
+			(uuid "3dea8627-db92-47df-8e57-75007ef06235")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 238.76 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d49048b1-1d71-411f-8de6-3887757066cf")
+		(property "Reference" "#PWR015"
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.633 51.4858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb41bf2-b09d-48b5-87a8-0ea35c358aa8")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6329a4e-d8e2-4dd2-bf1b-1e95c8b6a4e3")
+		(property "Reference" "C7"
+			(at 175.26 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 175.26 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9576a639-05f9-49c3-83b9-40baafee24c8")
+		)
+		(pin "2"
+			(uuid "0616c8cf-5ec9-4174-af16-b3ea95fcb7e1")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
+		(at 231.14 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1453a03-2091-4bb7-a8f6-2835542b3d3a")
+		(property "Reference" "#PWR011"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.267 144.0942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc52766-302a-441f-a827-0cbe820125c7")
+		)
+		(instances
+			(project "echo-chan"
+				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
