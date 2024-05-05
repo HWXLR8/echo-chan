@@ -10524,7 +10524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TQFP-64_14x14mm_P0.8mm"
+		(property "Footprint" "Package_QFP:TQFP-64_14x14mm_P0.8mm"
 			(at 209.55 69.85 0)
 			(effects
 				(font
@@ -10777,7 +10777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 106.172 90)
 			(effects
 				(font
@@ -10844,7 +10844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 108.712 90)
 			(effects
 				(font
@@ -11041,7 +11041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 269.24 69.342 90)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BUTTON"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 207.01 120.65 0)
 			(effects
 				(font
@@ -11241,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -11897,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm"
 			(at 128.27 33.02 0)
 			(effects
 				(font
@@ -12009,7 +12009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:USB_B_OST_USB-B1HSxx_Horizontal"
+		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
 			(at 129.54 109.22 0)
 			(effects
 				(font
@@ -12239,7 +12239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bd96abf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 240.03 165.1 0)
 			(effects
 				(font
@@ -12289,7 +12289,7 @@
 		(instances
 			(project "echo-chan"
 				(path "/f9e5ab77-ac00-48f5-910f-38a287c63fee"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -12320,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.55 150.368 90)
 			(effects
 				(font
@@ -12461,7 +12461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.55 160.528 90)
 			(effects
 				(font
@@ -12530,7 +12530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 212.852 153.67 90)
 			(effects
 				(font
@@ -12597,7 +12597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.65 176.53 0)
 			(effects
 				(font
@@ -12796,7 +12796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.65 185.42 0)
 			(effects
 				(font
@@ -12997,7 +12997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 245.11 115.57 0)
 			(effects
 				(font
@@ -13064,7 +13064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 162.052 90)
 			(effects
 				(font
@@ -13867,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.65 158.75 0)
 			(effects
 				(font
@@ -14066,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.212 181.61 90)
 			(effects
 				(font
@@ -14661,7 +14661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 57.912 181.61 90)
 			(effects
 				(font
@@ -14860,7 +14860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -15101,7 +15101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 245.11 123.19 0)
 			(effects
 				(font
@@ -15300,7 +15300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 169.672 90)
 			(effects
 				(font
@@ -15367,7 +15367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 162.052 90)
 			(effects
 				(font
@@ -15903,7 +15903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 164.592 90)
 			(effects
 				(font
@@ -16035,7 +16035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 120.65 167.64 0)
 			(effects
 				(font
@@ -16102,7 +16102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 169.672 90)
 			(effects
 				(font
@@ -16238,7 +16238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 167.132 90)
 			(effects
 				(font
@@ -16305,7 +16305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.262 181.61 90)
 			(effects
 				(font
@@ -16705,7 +16705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 167.132 90)
 			(effects
 				(font
@@ -16772,7 +16772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 51.562 181.61 90)
 			(effects
 				(font
@@ -17103,7 +17103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 164.592 90)
 			(effects
 				(font
