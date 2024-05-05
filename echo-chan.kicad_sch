@@ -8545,7 +8545,7 @@
 			)
 		)
 	)
-	(global_label "HD15_BLUE"
+	(global_label "HD15_GREEN"
 		(shape input)
 		(at 135.89 27.94 0)
 		(fields_autoplaced yes)
@@ -8557,7 +8557,7 @@
 		)
 		(uuid "523699f6-e851-4ad8-a3ed-b7ef1bd8b9f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.9857 27.94 0)
+			(at 150.3766 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
