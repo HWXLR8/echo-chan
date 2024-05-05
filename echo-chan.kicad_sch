@@ -10689,7 +10689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 73.66 0)
+			(at 181.61 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16013,7 +16013,7 @@
 		(dnp no)
 		(uuid "d6329a4e-d8e2-4dd2-bf1b-1e95c8b6a4e3")
 		(property "Reference" "C7"
-			(at 134.366 97.79 90)
+			(at 135.128 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +16021,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 139.7 97.79 90)
+			(at 139.7 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
