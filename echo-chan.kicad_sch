@@ -5710,6 +5710,12 @@
 		(uuid "6cc67171-2a52-49c7-b21a-089d05277680")
 	)
 	(junction
+		(at 73.66 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72e0de06-c5a4-4e93-a0da-555034736d27")
+	)
+	(junction
 		(at 214.63 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5846,12 +5852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9f2cd2f-0073-4053-afa3-a97c9e62d662")
-	)
-	(junction
-		(at 73.66 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea64b892-1781-4f21-b6ce-7ab358da40bb")
 	)
 	(junction
 		(at 39.37 29.21)
@@ -11371,8 +11371,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:JAMMA-jamma-streamer-rescue")
-		(at 66.04 63.5 270)
-		(mirror x)
+		(at 66.04 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11380,7 +11379,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8ea1c3")
 		(property "Reference" "U2"
-			(at 58.42 63.5 0)
+			(at 63.754 25.4 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11388,7 +11387,7 @@
 			)
 		)
 		(property "Value" "JAMMA"
-			(at 60.96 63.5 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11396,7 +11395,7 @@
 			)
 		)
 		(property "Footprint" "footprints:JAMMA"
-			(at 63.5 71.12 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11405,7 +11404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 71.12 0)
+			(at 63.5 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11414,7 +11413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 63.5 0)
+			(at 66.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +11608,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8ea26e")
 		(property "Reference" "U1"
-			(at 24.13 62.23 0)
+			(at 29.718 25.4 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11853,7 +11852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm"
+		(property "Footprint" "echo-chan:DSUB-15-HD_Female_Horizontal_P2.29x2.54mm_EdgePinOffset9.40mm_anchors"
 			(at 128.27 33.02 0)
 			(effects
 				(font
