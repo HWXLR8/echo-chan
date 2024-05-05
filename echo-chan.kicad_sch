@@ -7687,7 +7687,7 @@
 		)
 		(uuid "3544ebbe-d89f-4a90-95d8-5c8527fbc13c")
 	)
-	(text "MICRCONTROLLER"
+	(text "MICROCONTROLLER"
 		(exclude_from_sim no)
 		(at 226.06 15.748 0)
 		(effects
@@ -7697,7 +7697,7 @@
 		)
 		(uuid "7aaa32ac-f972-492d-92fa-ec210b96ded9")
 	)
-	(text "AUDIO TRANSFORMER"
+	(text "AUDIO OUT"
 		(exclude_from_sim no)
 		(at 227.076 139.7 0)
 		(effects
