@@ -6265,6 +6265,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0ba3e8-fe7f-4e05-a101-bc84c895ea12")
+	)
+	(wire
+		(pts
 			(xy 241.3 36.83) (xy 237.49 36.83)
 		)
 		(stroke
@@ -6632,6 +6642,16 @@
 			(type default)
 		)
 		(uuid "5d9b117d-edd1-46fc-a94e-ae3ffecd5de8")
+	)
+	(wire
+		(pts
+			(xy 138.43 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f921898-9353-4fd5-9b88-a908c4eea525")
 	)
 	(wire
 		(pts
@@ -7667,7 +7687,7 @@
 	)
 	(global_label "USB-"
 		(shape input)
-		(at 140.97 110.49 0)
+		(at 146.05 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7677,7 +7697,7 @@
 		)
 		(uuid "0ae6596f-58ee-40a3-a140-4c46d69021ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.6834 110.49 0)
+			(at 153.7634 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9909,7 @@
 	)
 	(global_label "USB+"
 		(shape input)
-		(at 140.97 107.95 0)
+		(at 146.05 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9899,7 +9919,7 @@
 		)
 		(uuid "d48e9bbe-f8f6-431a-a0d1-b1729023d2fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.6834 107.95 0)
+			(at 153.7634 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +10558,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 137.16 107.95 270)
+		(at 142.24 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10546,7 +10566,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e218c")
 		(property "Reference" "R1"
-			(at 137.16 105.41 90)
+			(at 142.24 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10574,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 137.16 107.95 90)
+			(at 142.24 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10582,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.16 106.172 90)
+			(at 142.24 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 107.95 0)
+			(at 142.24 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 107.95 0)
+			(at 142.24 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10625,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 137.16 110.49 270)
+		(at 142.24 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10613,7 +10633,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e226a")
 		(property "Reference" "R2"
-			(at 137.16 112.522 90)
+			(at 142.24 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10641,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 137.16 110.49 90)
+			(at 142.24 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10649,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.16 108.712 90)
+			(at 142.24 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10638,7 +10658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 110.49 0)
+			(at 142.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +10667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 110.49 0)
+			(at 142.24 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
