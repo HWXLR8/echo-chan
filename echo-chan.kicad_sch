@@ -5620,7 +5620,7 @@
 		(uuid "224b0fd4-1291-4a05-9f35-3ffe744f2428")
 	)
 	(junction
-		(at 125.73 118.11)
+		(at 115.57 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27ab4a2d-d432-4ed4-8f71-ae58088ba8c8")
@@ -5656,7 +5656,7 @@
 		(uuid "42592be6-2947-4e59-a171-7544fa738b12")
 	)
 	(junction
-		(at 137.16 102.87)
+		(at 127 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c9a85b-3633-4bfc-aa82-7f2a3ddacff1")
@@ -6265,16 +6265,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0ba3e8-fe7f-4e05-a101-bc84c895ea12")
-	)
-	(wire
-		(pts
 			(xy 241.3 36.83) (xy 237.49 36.83)
 		)
 		(stroke
@@ -6645,16 +6635,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 133.35 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f921898-9353-4fd5-9b88-a908c4eea525")
-	)
-	(wire
-		(pts
 			(xy 213.36 158.75) (xy 214.63 158.75)
 		)
 		(stroke
@@ -6745,7 +6725,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 140.97 102.87)
+			(xy 127 100.33) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6805,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 137.16 102.87)
+			(xy 123.19 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7255,7 +7235,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 118.11) (xy 125.73 118.11)
+			(xy 113.03 115.57) (xy 115.57 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7295,7 +7275,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 137.16 102.87)
+			(xy 127 97.79) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7663,6 +7643,28 @@
 		)
 		(uuid "fdc9d0fe-32e5-4a83-8531-8243949a3833")
 	)
+	(global_label "USB_PORT+"
+		(shape input)
+		(at 123.19 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03522d3e-fa00-4c1c-9244-0de06d13469f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.7091 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P1_B4"
 		(shape input)
 		(at 228.6 46.99 90)
@@ -7685,9 +7687,9 @@
 			)
 		)
 	)
-	(global_label "USB-"
+	(global_label "USB_MCU-"
 		(shape input)
-		(at 146.05 110.49 0)
+		(at 147.32 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7697,7 +7699,7 @@
 		)
 		(uuid "0ae6596f-58ee-40a3-a140-4c46d69021ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7634 110.49 0)
+			(at 160.0529 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +7863,7 @@
 			)
 		)
 	)
-	(global_label "USB-"
+	(global_label "USB_MCU-"
 		(shape input)
 		(at 201.93 66.04 180)
 		(fields_autoplaced yes)
@@ -7873,7 +7875,7 @@
 		)
 		(uuid "1ac07839-39c0-4680-a6e6-8c3197cddfd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2166 66.04 0)
+			(at 189.1971 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7951,7 @@
 			)
 		)
 	)
-	(global_label "USB+"
+	(global_label "USB_MCU+"
 		(shape input)
 		(at 201.93 68.58 180)
 		(fields_autoplaced yes)
@@ -7961,7 +7963,7 @@
 		)
 		(uuid "22222d9a-76c4-4a6f-9c60-55111626196d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2166 68.58 0)
+			(at 189.1971 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,6 +9183,28 @@
 			)
 		)
 	)
+	(global_label "USB_PORT-"
+		(shape input)
+		(at 123.19 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92eed039-c3fd-4f61-94af-5d4fd2b7a985")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.7091 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COIN_LOCK_2"
 		(shape input)
 		(at 39.37 49.53 0)
@@ -9249,7 +9273,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 140.97 102.87 0)
+		(at 130.81 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9259,7 +9283,7 @@
 		)
 		(uuid "986a4088-93da-4fe1-9c2f-455a789a9d49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.1996 102.87 0)
+			(at 138.0396 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,6 +9689,28 @@
 			)
 		)
 	)
+	(global_label "USB_PORT+"
+		(shape input)
+		(at 139.7 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdd2a69e-8dd7-401e-b69b-d13a92c64a7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.1809 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2_RIGHT"
 		(shape input)
 		(at 201.93 96.52 180)
@@ -9907,9 +9953,9 @@
 			)
 		)
 	)
-	(global_label "USB+"
+	(global_label "USB_MCU+"
 		(shape input)
-		(at 146.05 107.95 0)
+		(at 147.32 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9919,7 +9965,7 @@
 		)
 		(uuid "d48e9bbe-f8f6-431a-a0d1-b1729023d2fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7634 107.95 0)
+			(at 160.0529 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,6 +10191,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_PORT-"
+		(shape input)
+		(at 139.7 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f174c560-7010-447f-99ec-91226da9ddba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.1809 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10558,7 +10626,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 142.24 107.95 270)
+		(at 143.51 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10566,7 +10634,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e218c")
 		(property "Reference" "R1"
-			(at 142.24 105.918 90)
+			(at 143.51 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10642,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 142.24 107.95 90)
+			(at 143.51 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10650,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 106.172 90)
+			(at 143.51 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 107.95 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +10668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 107.95 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10693,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:R-jamma-streamer-rescue")
-		(at 142.24 110.49 270)
+		(at 143.51 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10633,7 +10701,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8e226a")
 		(property "Reference" "R2"
-			(at 142.24 112.522 90)
+			(at 143.51 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +10709,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 142.24 110.49 90)
+			(at 143.51 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +10717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 108.712 90)
+			(at 143.51 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 110.49 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +10735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 110.49 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +11857,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:USB_B-Connector")
-		(at 125.73 107.95 0)
+		(at 115.57 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11797,7 +11865,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bb35a6a")
 		(property "Reference" "J2"
-			(at 129.54 99.06 0)
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11805,7 +11873,7 @@
 			)
 		)
 		(property "Value" "USB_B"
-			(at 123.698 99.06 0)
+			(at 113.538 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +11881,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
-			(at 129.54 109.22 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +11890,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 129.54 109.22 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,7 +11899,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 107.95 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,7 +11933,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 125.73 118.11 0)
+		(at 115.57 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11873,7 +11941,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005bb6af43")
 		(property "Reference" "#PWR0110"
-			(at 125.73 124.46 0)
+			(at 115.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11882,7 +11950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 121.92 0)
+			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11890,7 +11958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 118.11 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11899,7 +11967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 118.11 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11908,7 +11976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 118.11 0)
+			(at 115.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14687,7 +14755,7 @@
 	)
 	(symbol
 		(lib_id "jamma-streamer-rescue:GND-jamma-streamer-rescue")
-		(at 137.16 95.25 180)
+		(at 127 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14695,7 +14763,7 @@
 		(dnp no)
 		(uuid "8676b3d1-5cba-4b41-bb22-f005bcf12ccc")
 		(property "Reference" "#PWR01"
-			(at 137.16 88.9 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +14772,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.033 90.8558 0)
+			(at 126.873 88.3158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,7 +14780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 95.25 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,7 +14789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 95.25 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14730,7 +14798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 95.25 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16025,7 +16093,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 137.16 97.79 180)
+		(at 127 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16033,7 +16101,7 @@
 		(dnp no)
 		(uuid "d6329a4e-d8e2-4dd2-bf1b-1e95c8b6a4e3")
 		(property "Reference" "C7"
-			(at 135.128 96.012 0)
+			(at 124.968 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16041,7 +16109,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 139.7 96.012 0)
+			(at 129.54 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +16117,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 137.16 97.79 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16058,7 +16126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 97.79 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16067,7 +16135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 97.79 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
