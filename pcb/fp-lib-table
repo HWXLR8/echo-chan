@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "echo-chan")(type "KiCad")(uri "${KIPRJMOD}/echo-chan.pretty")(options "")(descr ""))
+)
